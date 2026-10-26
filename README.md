@@ -1,5 +1,7 @@
 # CS411 Spring 2027 · Lab 8: Raft Elections
 
+Starter template: https://github.com/cwillpinto/cs411-spring2027-lab08-raft-elections
+
 Read the included handout. Complete the TODOs in `raft/node.go` and `raft/election.go`. This is a deterministic election-state model: the public tests send vote requests and replies directly instead of introducing sockets or real timers. `TimeoutFor` provides reproducible randomized timeout values for the trace.
 
 ```sh
@@ -18,7 +20,7 @@ If Blackboard links a template repository, choose **Use this template**, create 
 For a direct clone, first create an empty repository under your account. Replace the placeholders below with the starter link supplied in Blackboard and your own empty repository URL:
 
 ```sh
-git clone <instructor-starter-url>
+git clone https://github.com/cwillpinto/cs411-spring2027-lab08-raft-elections
 cd <cloned-directory>
 git remote rename origin upstream
 git remote add origin <your-empty-repository-url>

@@ -5,6 +5,8 @@
 **Due:** March 21, 2027  
 **Value:** 100 points
 
+**Starter repository:** [Open the Spring 2027 starter](https://github.com/cwillpinto/cs411-spring2027-lab08-raft-elections)
+
 ## Purpose
 
 Implement and trace Raft leader election in a five-node simulation. Preserve term monotonicity, one vote per term, majority election, and immediate step-down on a higher term.
